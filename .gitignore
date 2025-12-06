@@ -4,4 +4,4 @@ env/
 __pycache__/
 *.pt
 *.h5
-*.Stage3_Design_Architecture.md
+
