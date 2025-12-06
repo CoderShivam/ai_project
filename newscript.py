@@ -1,13 +1,5 @@
 #!/usr/bin/env python3
-"""
-Realtime demo: load emotion classifier, FAISS index (or build from predictions),
-and show webcam with predicted emotion + top retrieved review + sentiment.
 
-Usage examples:
-    python realtime_demo.py --model_path best_model.keras --index_path reviews_faiss.index --meta_path reviews_metadata.csv --cascade haarcascade_frontalface_default.xml
-
-If you don't have a FAISS index yet, provide --predictions_csv predictions.csv and the script will build the index (and save it).
-"""
 
 import argparse
 import os
